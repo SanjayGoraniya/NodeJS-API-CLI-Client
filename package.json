@@ -1,0 +1,19 @@
+{
+  "name": "udc-challenge-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version": "node index.js version",
+    "device-count": "node index.js device-count",
+    "timeout-devices": "node index.js timeout-devices",
+    "register-device": "node index.js register-device"
+  },
+  "keywords": [],
+  "author": "Sanjay Goraniya <sanjayrgoraniya@email.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.3.4",
+    "yargs": "^17.7.1"
+  }
+}
